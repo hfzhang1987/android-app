@@ -89,6 +89,11 @@ public final class ViewfinderView extends View {
         possibleResultPoints = new HashSet<ResultPoint>(5);
     }
 
+    /**
+     * 这里做个测试，git提交
+     * @param canvas
+     */
+
     @Override
     public void onDraw(Canvas canvas) {
         Rect frame = CameraManager.get().getFramingRect();
