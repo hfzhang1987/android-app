@@ -190,7 +190,9 @@ public final class ViewfinderView extends View {
         invalidate();
     }
 
-
+    /**
+     * test3
+     */
     /**
      * Draw a bitmap with the result points highlighted instead of the live
      * scanning display.
